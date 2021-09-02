@@ -36,3 +36,7 @@ h2 {
     color: blue;
     font-weight: bold;
 }
+
+img {
+    float: inline-start;
+}
