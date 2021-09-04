@@ -1,17 +1,21 @@
 body {
-    font-family: Helvetica;
-    color: black;
-}
-
-h1 {
-    font-family: Helvetica;
-    font-size: 100px;
+    font-family: 'Oswald', sans-serif; /*Custom font from Google Fonts*/
+    color: #FBE7E4;
+    font-size: 25px;
     font-weight: bold;
-    color: khaki;
     text-align: center;
     background-image: url("images/pattern.webp");
 }
+/*Title text*/
+h1 {
+    font-family: Allison; /*Custom font from Google Fonts*/
+    font-size: 150px;
+    font-weight: bold;
+    color: #E4F9FB;
+    text-align: center;
+}
 
+/*Section text*/
 h2 {
     font-family: Helvetica;
     font-size: 32px;
@@ -32,11 +36,12 @@ h2 {
 }
 
 .price {
-    font-family: Helvetica;
-    color: blue;
+    font-family: Allison; /*Custom font from Google Fonts*/
+    color: #0F6772;
     font-weight: bold;
+    font-size: 40px;
 }
 
 img {
-    float: inline-start;
+    background-blend-mode: soft-light;
 }
