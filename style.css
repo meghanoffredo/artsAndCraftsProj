@@ -3,7 +3,6 @@ body {
     color: #FBE7E4;
     font-size: 25px;
     font-weight: bold;
-    text-align: center;
     background-image: url("images/pattern.webp");
 }
 /*Title text*/
@@ -17,22 +16,27 @@ h1 {
 
 /*Section text*/
 h2 {
-    font-family: Helvetica;
-    font-size: 32px;
+    font-family: 'Oswald', sans-serif; /*Custom font from Google Fonts*/
+    font-size: 40px;
     font-weight: bold;
+    text-align: center;
     color: white;
 }
 
-#brushes {
-    background-color: mediumspringgreen;
+h3 {
+    text-align: center;
 }
 
-#frames {
-    background-color: lightcoral;
+.textWrap {
+    clear: right;
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
 }
 
-#paint {
-    background-color: skyblue;
+img {
+    width: 130px;
+    height: 130px;
 }
 
 .price {
@@ -40,8 +44,4 @@ h2 {
     color: #0F6772;
     font-weight: bold;
     font-size: 40px;
-}
-
-img {
-    background-blend-mode: soft-light;
 }
