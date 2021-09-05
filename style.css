@@ -1,16 +1,20 @@
 body {
     font-family: 'Oswald', sans-serif; /*Custom font from Google Fonts*/
-    color: #FBE7E4;
+    color: #4f0a33;
     font-size: 25px;
-    font-weight: bold;
-    background-image: url("images/pattern.webp");
+    text-align: center;
+    background-image: url(/images/paint\ drip\ background.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: center;
 }
 /*Title text*/
 h1 {
     font-family: Allison; /*Custom font from Google Fonts*/
     font-size: 150px;
     font-weight: bold;
-    color: #E4F9FB;
+    color: #4f0a33;
     text-align: center;
 }
 
@@ -18,30 +22,37 @@ h1 {
 h2 {
     font-family: 'Oswald', sans-serif; /*Custom font from Google Fonts*/
     font-size: 40px;
-    font-weight: bold;
+    font-weight: bolder;
     text-align: center;
-    color: white;
+    color: black;
 }
 
 h3 {
     text-align: center;
 }
 
-.textWrap {
-    clear: right;
-    float: left;
-    margin-right: 20px;
-    vertical-align: middle;
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-img {
-    width: 130px;
-    height: 130px;
+/* Container holding the image and the text */
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+  /* Centered text */
+.centered {
+    position: absolute;
+    transform: translate(-50%, -50%);
 }
 
 .price {
     font-family: Allison; /*Custom font from Google Fonts*/
-    color: #0F6772;
+    color: #3360cc;
     font-weight: bold;
     font-size: 40px;
 }
