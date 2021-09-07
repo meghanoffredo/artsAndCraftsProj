@@ -1,10 +1,10 @@
 body {
-    font-family: sans-serif; /*Custom font from Google Fonts*/
+    font-family: 'Open Sans Condensed'; /*Custom font from Google Fonts*/
     color: #020c0d;
     font-size: 25px;
     font-weight: lighter;
     text-align: center;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     background-image: url(/images/paint\ drip\ background.png);
     background-position: center center;
     background-repeat: no-repeat;
@@ -14,7 +14,7 @@ body {
 
 /*Title text*/
 h1 {
-    font-family: 'Fjalla One', sans-serif; /*Custom font from Google Fonts*/
+    font-family: 'Fjalla One'; /*Custom font from Google Fonts*/
     font-size: 140px;
     font-weight: bold;
     letter-spacing: -5px;
@@ -36,7 +36,7 @@ ul {
 li {
     display: inline;
     margin: 0px 40px;
-    font-family: 'Fjalla One', sans-serif; 
+    font-family: 'Fjalla One'; 
     text-transform: uppercase;
 }
 
@@ -57,7 +57,7 @@ a:hover {
 
 /*Section text*/
 h2 {
-    font-family: 'Oswald', sans-serif; /*Custom font from Google Fonts*/
+    font-family: 'Fjalla One', sans-serif;
     font-size: 40px;
     font-weight: bolder;
     text-align: center;
@@ -74,12 +74,29 @@ img {
     height: 160px;
     border: 0px solid #020c0d;
     border-radius: 100px;
+    padding: 0px;
 }
 
+p {
+    background-color: white;
+    padding: 20px;
+    border: ridge 5px #E8179C;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 .price {
-    font-family: Allison; /*Custom font from Google Fonts*/
-    color: #3360cc;
+    font-family: 'Allison', cursive; /*Custom font from Google Fonts*/
+    color: #E8179C;
     font-weight: bold;
     font-size: 50px;
+}
+
+#contact {
+    font-family: 'Fjalla One';
+    font-size: 30px;
+    font-weight: bold;
+    color: #020c0d;
+    border: none;
 }
